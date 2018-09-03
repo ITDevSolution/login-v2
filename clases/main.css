@@ -1,0 +1,81 @@
+html,body{
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 100vh;
+     background-image: url("../a.svg");
+     background-size: cover;
+     display: table;
+}
+
+.register{
+     border: 1px solid rgba(255, 255, 255, 0.5);
+     border-radius: 5px;
+     padding: 2em;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translateX(-50%) translateY(-50%)
+}
+
+.register:hover{
+     border: 1px solid rgba(255, 255, 255, 1);
+     background: rgba(236, 99, 236, 0.5);
+     transition: 1s;
+}
+
+h2{
+     margin-top: 0px;
+     font-family: Sniglet;
+     font-weight: lighter;
+     color: #fff;
+     font-size: 50px;
+     text-align: center;
+}
+
+a{
+     font-family: Sniglet;
+     font-weight: lighter;
+     font-size: 16px;
+     text-decoration: none;
+     color: #fff;
+     margin-left: 14.5em;
+}
+
+a:hover{
+     color: #000;
+     transition: 1s;
+}
+
+label{
+     font-family: Sniglet;
+     font-weight: lighter;
+     font-size: 18px;
+}
+
+input{
+     display: block;
+     width: 320px;
+     height: 20px;
+     background: rgba(0, 0, 0, 0.5);
+     outline: none;
+     border: 1px solid rgba(255, 255, 255, 0.5);
+     border-radius: 5px;
+     font-family: Sniglet;
+     font-weight: lighter;
+     font-size: 14px;
+     margin-top: 8px;
+     margin-bottom: 10px;
+     color: #fff;
+     padding: 5px;
+}
+
+.btn{
+     background: rgba(41,98,255 ,1);
+     border: 1px solid rgba(0, 0, 0, 0.3);
+     border-radius: 5px;
+     padding: 8px;
+     font-family: Sniglet;
+     font-size: 17px;
+}
+

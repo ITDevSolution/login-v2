@@ -1,5 +1,3 @@
-
-
 html,body{
      margin: 0;
      padding: 0;
@@ -8,6 +6,32 @@ html,body{
      background-image: url("a.svg");
      background-size: cover;
      display: table;
+}
+
+.space{
+     text-transform: uppercase;
+     position: absolute;
+     top: 15%;
+     left: 50%;
+     transform: translateX(-50%)translateY(-50%);
+     font-size: 8em;
+     font-family: Sniglet;
+     background: url(0.jpg);
+     background-size: cover;
+     -webkit-background-clip: text;
+     -webkit-text-stroke: 2px #000;
+     -webkit-text-fill-color: transparent;
+     
+     animation: animate 20s linear infinite;
+}
+
+@keyframes animate{
+     0%{
+          background-position: 0 0;
+     }
+     100%{
+          background-position: 800px -800px;
+     }
 }
 
 .sigin{
